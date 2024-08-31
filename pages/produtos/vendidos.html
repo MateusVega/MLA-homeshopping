@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome_Do_Site</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../../styles/style.css">
+    <link rel="stylesheet" href="../../styles/produtos/header.css">
+    <link rel="stylesheet" href="../../styles/produtos/main_filtros.css">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="../index.html"><img id="logo" src="../../images/logo.png"></a>
+            <a href="../index.html#parceiros" class="setore">Parceiros</a>
+            <a href="../index.html#produtos" class="setore">Destaques</a>
+            <a href="../index.html#promo" class="setore">Ofertas</a>
+            <a href="../index.html#modelos" class="setore">Modelos</a>
+        </div>
+        <div id="buttons">
+            <span class="checkbox">
+                <label class="checkbox" for="search_checkbox"><span class="material-symbols-outlined">search</span></label>
+                <input type="checkbox" id="search_checkbox">
+                <div id="searchbox">
+                    <input type="search" id="search">
+                    <p>Pesquisas populares</p>
+                    <ul>
+                        <li>Geladeira</li>
+                        <li>Fogão</li>
+                        <li>Liquidificador</li>
+                        <li>Air Fryer</li>
+                        <li>Micro-Ondas</li>
+                    </ul>
+                </div>
+            </span>            
+            <span class="checkbox">
+                <label class="checkbox" for="cart_checkbox"><span class="material-symbols-outlined">shopping_cart</span></label>
+                <input type="checkbox" id="cart_checkbox">
+                <div id="cartbox">
+                    <h3>Resumo do Carrinho</h3>
+                    <div>
+                        <h4>SEU CARRINHO ESTÁ VAZIO</h4>
+                        <p>Não há produtos selecionados<br>até o momento!</p>
+                    </div>
+                </div>
+            </span>
+            <span class="checkbox">
+                <a class="checkbox"  href="../login/index.html"><span class="material-symbols-outlined">person</span></a>
+            </span>
+        </div>
+    </header>
+    <main>
+        <aside>
+            <div class="filtros" style="margin-top: 30px;">
+                <label for="filtro1"><span>Capacidade</span><span class="material-symbols-outlined">arrow_forward_ios</span></label>
+                <input type="checkbox" id="filtro1">
+                <div id="filtro11">
+                    <span><input type="radio" name="capacidade" id="300"> <label for="300">Pequeno (até 300L)</label></span>
+                    <span><input type="radio" name="capacidade" id="500"> <label for="500">Médio (301L a 500L)</label></span>
+                    <span><input type="radio" name="capacidade" id="900"> <label for="900">Grande (acima de 501L)</label></span>
+                </div>
+            </div>
+            <div class="filtros">
+                <label for="filtro2"><span>Cor</span><span class="material-symbols-outlined">arrow_forward_ios</span></label>
+                <input type="checkbox" id="filtro2">
+                <div id="filtro22">
+                    <span><input type="radio" name="capacidade" id="bra"> <label for="bra">Branco</label></span>
+                    <span><input type="radio" name="capacidade" id="ino"> <label for="ino">Inox</label></span>
+                    <span><input type="radio" name="capacidade" id="pre"> <label for="pre">Preto</label></span>
+                </div>
+            </div>
+            <div class="filtros">
+                <label for="filtro3"><span>Largura</span><span class="material-symbols-outlined">arrow_forward_ios</span></label>
+                <input type="checkbox" id="filtro3">
+                <div id="filtro33">
+                    <span><input type="radio" name="capacidade" id="60"> <label for="60">Até 60 cm</label></span>
+                    <span><input type="radio" name="capacidade" id="80"> <label for="80">61 cm a 80 cm</label></span>
+                    <span><input type="radio" name="capacidade" id="100"> <label for="100">Acima de 80 cm</label></span>
+                </div>
+            </div>
+            <div class="filtros">
+                <label for="filtro4"><span>Profundidade</span><span class="material-symbols-outlined">arrow_forward_ios</span></label>
+                <input type="checkbox" id="filtro4">
+                <div id="filtro44">
+                    <span><input type="radio" name="capacidade" id="601"> <label for="601">Até 60 cm</label></span>
+                    <span><input type="radio" name="capacidade" id="801"> <label for="801">61 cm a 80 cm</label></span>
+                    <span><input type="radio" name="capacidade" id="1001"> <label for="1001">Acima de 80 cm</label></span>
+                </div>
+            </div>
+            <div class="filtros">
+                <label for="filtro5"><span>Tensão</span><span class="material-symbols-outlined">arrow_forward_ios</span></label>
+                <input type="checkbox" id="filtro5">
+                <div id="filtro55">
+                    <span><input type="radio" name="capacidade" id="110"> <label for="110">110V</label></span>
+                    <span><input type="radio" name="capacidade" id="220"> <label for="220">220V</label></span>
+                    <span><input type="radio" name="capacidade" id="bi"> <label for="bi">Bivolt</label></span>
+                </div>
+            </div>
+            <div class="filtros">
+                <label for="filtro6"><span>Preço</span><span class="material-symbols-outlined">arrow_forward_ios</span></label>
+                <input type="checkbox" id="filtro6">
+                <div id="filtro66">
+                    <span><input type="radio" name="capacidade" id="22"> <label for="22">Até R$ 2.000</label></span>
+                    <span><input type="radio" name="capacidade" id="44"> <label for="44">R$ 2.001 a R$ 4.000</label></span>
+                    <span><input type="radio" name="capacidade" id="66"> <label for="66">Acima de R$ 4.000</label></span>
+                </div>
+            </div>
+        </aside>
+        <section>
+            <div>
+                <a href="geladeira1.html">
+                    <img src="../../images/produto2/1.png">
+                </a>
+                <a href="geladeira2.html">
+                    <img src="../../images/produto2/2.png">
+                </a>
+                <a href="geladeira3.html">
+                    <img src="../../images/produto2/3.png">
+                </a>
+            </div>
+            <div>
+                <a href="geladeira4.html">
+                    <img src="../../images/produto2/4.png">
+                </a>
+                <a href="geladeira5.html">
+                    <img src="../../images/produto2/5.png">
+                </a>
+                <a href="geladeira6.html">
+                    <img src="../../images/produto2/6.png">
+                </a>
+            </div>
+            <div>
+                <a href="geladeira7.html">
+                    <img src="../../images/produto2/7.png">
+                </a>
+                <a href="geladeira8.html">
+                    <img src="../../images/produto2/8.png">
+                </a>
+                <a href="geladeira9.html">
+                    <img src="../../images/produto2/9.png">
+                </a>
+            </div>
+            <div>
+                <a href="geladeira10.html">
+                    <img src="../../images/produto2/10.png">
+                </a>
+                <a href="geladeira11.html">
+                    <img src="../../images/produto2/11.png">
+                </a>
+                <a href="geladeira12.html">
+                    <img src="../../images/produto2/12.png">
+                </a>
+            </div>        
+        </section>
+    </main>
+</body>
+</html>

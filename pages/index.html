@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome_Do_Site</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/grids.css">
+</head>
+<body>
+    <header>
+        <video autoplay muted loop>
+            <source src="../images/video1.mp4" type="video/mp4">
+        </video>
+        <div>
+            <a href="index.html"><img id="logo" src="../images/logo.png"></a>
+            <a href="#parceiros" class="setore">Parceiros</a>
+            <a href="#produtos" class="setore">Destaques</a>
+            <a href="#promo" class="setore">Ofertas</a>
+            <a href="#modelos" class="setore">Modelos</a>
+        </div>
+        <div id="buttons">
+            <span class="checkbox">
+                <label class="checkbox" for="search_checkbox"><span class="material-symbols-outlined">search</span></label>
+                <input type="checkbox" id="search_checkbox">
+                <div id="searchbox">
+                    <input type="search" id="search">
+                    <p>Pesquisas populares</p>
+                    <ul>
+                        <li>Geladeira</li>
+                        <li>Fogão</li>
+                        <li>Liquidificador</li>
+                        <li>Air Fryer</li>
+                        <li>Micro-Ondas</li>
+                    </ul>
+                </div>
+            </span>            
+            <span class="checkbox">
+                <label class="checkbox" for="cart_checkbox"><span class="material-symbols-outlined">shopping_cart</span></label>
+                <input type="checkbox" id="cart_checkbox">
+                <div id="cartbox">
+                    <h3>Resumo do Carrinho</h3>
+                    <div>
+                        <h4>SEU CARRINHO ESTÁ VAZIO</h4>
+                        <p>Não há produtos selecionados<br>até o momento!</p>
+                    </div>
+                </div>
+            </span>
+            <span class="checkbox">
+                <a class="checkbox" href="../login/index.html"><span class="material-symbols-outlined">person</span></a>
+            </span>
+        </div>
+    </header>
+    <main>
+        <section id="parceiros">
+            <h1>EMPRESAS PARCEIRAS</h1>
+                <div id="blocos">
+                    <a style="background-image: url('../images/parceiros/1.png');" href="https://www.brastemp.com.br/"></a>
+                    <a style="background-image: url('../images/parceiros/2.png');" href="https://www.samsung.com/"></a>
+                    <a style="background-image: url('../images/parceiros/3.png');" href="https://loja.panasonic.com.br/"></a>
+                    <a style="background-image: url('../images/parceiros/4.png');" href="https://www.tramontina.com.br/"></a>
+                </div>
+        </section>
+        <h1 style="margin: 25px 0px;">MAIS VENDIDOS</h1>
+        <section id="produtos">
+            <a href="../pages/produtos/vendidos.html" style="background-image: url('../images/mais_vendidos/1.png');"></a>
+            <a href="../pages/produtos/vendidos.html" style="background-image: url('../images/mais_vendidos/2.png');"></a>
+            <a href="../pages/produtos/vendidos.html" style="background-image: url('../images/mais_vendidos/3.png');"></a>
+            <a href="../pages/produtos/vendidos.html" style="background-image: url('../images/mais_vendidos/4.png');"></a>
+        </section>
+        <h1  style="margin: 25px 0px;">OFERTAS ESPECIAIS</h1>
+        <section id="promo">
+            <a>
+                <img src="../images/ofertas/1.png">
+                <img src="../images/ofertas/4.png">
+            </a>
+            <a>
+                <img src="../images/ofertas/5.png">
+                <img src="../images/ofertas/2.png">
+            </a>
+            <a>
+                <img src="../images/ofertas/3.png">
+                <img src="../images/ofertas/6.png">
+            </a>
+        </section>
+	    <h1  style="margin: 25px 0px;">CONHEÇA OS MODELOS</h1>
+        <section id="modelos">
+            <div id="lista_mod">
+                <ul>
+                    <li>
+                        <label for="opengrid1">Geladeira <span class="material-symbols-outlined">arrow_forward_ios</span></label>
+                        <input type="checkbox" id="opengrid1">
+
+                        <div id="grid_container1" class="grid_container">
+                            <div>
+                                <a class="grid_item" href="produtos/geladeira1.html">
+                                    <img src="../images/produto1/1.png">
+                                    <p>Geladeira Electrolux Frost</p>
+                                </a>
+                                <a class="grid_item" href="produtos/geladeira2.html">
+                                    <img src="../images/produto1/2.png">
+                                    <p>Geladeira Frost Free Inverter </p>
+                                </a>
+                                <a class="grid_item" href="produtos/geladeira3.html">
+                                    <img src="../images/produto1/3.png">
+                                    <p>Geladeira Frost Free 310L Duplex </p>
+                                </a>
+                                <a class="grid_item" href="produtos/geladeira4.html">
+                                    <img src="../images/produto1/4.png">
+                                    <p>Geladeira Água na Porta AutoSense </p>
+                                </a>
+                                <a class="grid_item" href="produtos/geladeira5.html">
+                                    <img src="../images/produto1/5.png">
+                                    <p>Geladeira Frost Free Inverter  AutoSense Duple</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="grid_item" href="produtos/geladeira6.html">
+                                    <img src="../images/produto1/6.png">
+                                    <p>Geladeira Frost Free Inverter Efficient AutoSense</p>
+                                </a>
+                                <a class="grid_item" href="produtos/geladeira7.html">
+                                    <img src="../images/produto1/7.png">
+                                    <p>Geladeira Frost Free Inverter FlexiSpace</p>
+                                </a>
+                                <a class="grid_item" href="produtos/geladeira8.html">
+                                    <img src="../images/produto1/8.png">
+                                    <p>Geladeira Frost Free Inverter FlexiSpace Wi-fi </p>
+                                </a>
+                                <a class="grid_item" href="produtos/geladeira9.html">
+                                    <img src="../images/produto1/9.png">
+                                    <p>Geladeira  Cycle Defrost </p>
+                                </a>
+                                <a class="grid_item" href="produtos/geladeira10.html">
+                                    <img src="../images/produto1/10.png">
+                                    <p>Geladeira Frost Free Inverter Efficient </p>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="grid_item" href="produtos/geladeira11.html">
+                                    <img src="../images/produto1/11.png">
+                                    <p>Geladeira Frost Free Inverter Experience Fresh&Flex</p>
+                                </a>
+                                <a class="grid_item" href="produtos/geladeira12.html">
+                                    <img src="../images/produto1/12.png">
+                                    <p>Geladeira Frost Free Efficient Duplex Branco</p>
+                                </a>
+                                <a class="grid_item" href="produtos/geladeira3.html">
+                                    <img src="../images/produto1/3.png">
+                                    <p>Geladeira Frost Free 310L Duplex </p>
+                                </a>
+                                <a class="grid_item" href="produtos/geladeira8.html">
+                                    <img src="../images/produto1/8.png">
+                                    <p>Geladeira Frost Free Inverter FlexiSpace Wi-fi </p>
+                                </a>
+                                <a class="grid_item" href="produtos/geladeira5.html">
+                                    <img src="../images/produto1/5.png">
+                                    <p>Geladeira Frost Free Inverter  AutoSense Duple</p>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <label for="opengrid2">Fogão <span class="material-symbols-outlined">arrow_forward_ios</span></label>
+                        <input type="checkbox" id="opengrid2">
+
+                        <div id="grid_container2" class="grid_container">
+                            <div>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <label for="opengrid3">Máquina de Lavar <span class="material-symbols-outlined">arrow_forward_ios</span></label>
+                        <input type="checkbox" id="opengrid3">
+
+                        <div id="grid_container3" class="grid_container">
+                            <div>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <label for="opengrid4">Eletroportáveis <span class="material-symbols-outlined">arrow_forward_ios</span></label>
+                        <input type="checkbox" id="opengrid4">
+
+                        <div id="grid_container4" class="grid_container">
+                            <div>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <label for="opengrid5">Lava-Louças <span class="material-symbols-outlined">arrow_forward_ios</span></label>
+                        <input type="checkbox" id="opengrid5">
+
+                        <div id="grid_container5" class="grid_container">
+                            <div>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <label for="opengrid6">Televisões <span class="material-symbols-outlined">arrow_forward_ios</span></label>
+                        <input type="checkbox" id="opengrid6">
+
+                        <div id="grid_container6" class="grid_container">
+                            <div>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                                <a class="grid_item">
+                                    <img src="../images/geladeira.png">
+                                    <p>Geladeira</p>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

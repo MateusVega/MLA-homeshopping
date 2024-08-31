@@ -1,0 +1,305 @@
+main{
+    width: 70vw;
+    margin: 25px auto;
+}
+
+/*titulocarrinho*/
+
+main div#titulocarrinho{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+main div#titulocarrinho span{
+    border: 5px solid black;
+    border-radius: 100%;
+    padding: 10px;
+    font-size: 2.5em;
+    margin-right: 15px;
+}
+
+main div#titulocarrinho p{
+    font-size: 2.5em;
+}
+
+/*Buttons Comprar*/
+
+main div#buttons_comprar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main div#buttons_comprar a:first-child{
+    background-color: lightgray;
+    color: black;
+}
+
+main div#buttons_comprar a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 10px;
+    width: 25%;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    background-color: black;
+    color: white;
+    transition: transform .2s;
+}
+
+main div#buttons_comprar a:hover{
+    transform: scale(1.05);
+}
+
+/*Carrinho*/
+
+main div#carrinho{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+main div#carrinho h1{
+    font-size: 2.5em;
+    padding-bottom: 25px;
+    border-bottom: 1px solid lightgray;
+}
+
+main div#carrinho div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 65%;
+    height: 70%;
+    margin: 5px 15px;
+}
+
+main div#carrinho div > span{
+    display: flex;
+}
+
+
+main div#carrinho div > span img{
+    width: 260px;
+}
+
+main div#carrinho div > span p{
+    margin: 40px;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+}
+
+main div#carrinho div > span p:last-child{
+    margin: 40px;
+    margin-top: 10px;
+    font-size: 1.8em;
+}
+
+main div#carrinho > span{
+    border-top: 1px solid lightgray;
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+main div#carrinho > span > p{
+    font-size: 1.5em;
+}
+
+/*Concluir*/
+
+main > span > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    width: 25%;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    background-color: black;
+    color: white;
+    transition: transform .2s;
+}
+
+main > span > a:hover{
+    transform: scale(1.05);
+}
+
+/*PAGAR*/
+
+main #ck1:checked ~ #endereço {
+    display: block;
+}
+
+main #ck2:checked ~ #pagamento {
+    display: block;
+}
+
+main #ck3:checked ~ #envio {
+    display: flex;
+}
+
+main div#pagar{
+    margin: 50px 15px;
+}
+
+main div#pagar li{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 15px;
+}
+
+main div#pagar li > label{
+    font-size: 2em;
+}
+
+main div#pagar li > div{
+    display: none;
+    width: 95%;
+    height: 370px;
+    margin: 5px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+main div#pagar li div > p.titles{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 5px;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+main div#pagar li div#endereço input{
+    width: 180px;
+}
+
+main div#pagar li div#endereço input[type=button]{
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: rgb(0, 60, 255);
+    color: white;
+    transition: transform .2s;
+}
+
+main div#pagar li div#endereço input[type=button]:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+main div#pagar li div#pagamento{
+    height: 250px;
+}
+
+main div#pagar li div#pagamento form span{
+    margin-top: 20px;
+    margin-left: 15px;
+    padding-bottom: 10px;
+    font-size: 1.8em;
+}
+
+main div#pagar li div#envio {
+    display: none;
+    flex-direction: column;
+    height: auto;
+    padding: 0px;
+    margin: 7.5px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+main div#pagar li div#envio > div {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+main div#pagar li div#envio > div > p {
+    color: #30402D;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+main div#pagar li div#envio img {
+    width: 180px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+main div#pagar li div#envio div div {
+    display: flex;
+    flex-direction: row;
+}
+
+main div#pagar li div#envio span {
+    width: 60%;
+}
+
+main div#pagar li div#envio span > p:first-child {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+main div#pagar li div#envio span > p:last-child {
+    font-size: 1.5em;
+    color: #30402D;
+    font-weight: bold;
+}
+
+main div#pagar li div#envio div#finalizar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    height: 100px;
+}
+
+main div#pagar li div#envio div#finalizar *{
+    display: inline-block;
+}
+
+main div#pagar li div#envio div#finalizar a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 10px;
+    width: 20%;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.2em;
+    background-color: #BCC7BC;
+    color: black;
+    transition: transform .2s;
+}
+
+main div#pagar li div#envio div#finalizar a:hover{
+    transform: scale(1.05);
+}
+
+main div#pagar li div#envio div#finalizar p{
+    margin-left: 20px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0px;
+}

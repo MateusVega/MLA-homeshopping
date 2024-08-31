@@ -1,0 +1,47 @@
+main #grid_container1{
+    display: none;
+}
+
+main #opengrid1:checked ~ #grid_container1{
+    display: flex !important;
+}
+
+main #grid_container2{
+    display: none;
+}
+
+main #opengrid2:checked ~ #grid_container2{
+    display: flex !important;
+}
+
+main #grid_container3{
+    display: none;
+}
+
+main #opengrid3:checked ~ #grid_container3{
+    display: flex !important;
+}
+
+main #grid_container4{
+    display: none;
+}
+
+main #opengrid4:checked ~ #grid_container4{
+    display: flex !important;
+}
+
+main #grid_container5{
+    display: none;
+}
+
+main #opengrid5:checked ~ #grid_container5{
+    display: flex !important;
+}
+
+main #grid_container6{
+    display: none;
+}
+
+main #opengrid6:checked ~ #grid_container6{
+    display: flex !important;
+}

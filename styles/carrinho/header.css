@@ -1,0 +1,157 @@
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+}
+
+header > div{
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    margin: 2px 35px;
+}
+
+header > div#buttons span{
+    margin: 0px 1px;
+}
+
+header img{
+    width: 250px;
+    transition: transform .2s;
+}
+
+header img:hover{
+    transform: scale(1.1);
+}
+
+header .checkbox{
+    cursor: pointer;
+    font-size: 1.1em;
+    color: white;
+}
+
+#input[type=checkbox]{
+    display: none;
+}
+
+header input[type=checkbox]:checked ~ #searchbox {
+    display: flex;
+}
+
+header #searchbox {
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    z-index: 2;
+    right: 10px;
+    top: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 265px;
+    width: 300px;
+    padding: 20px;
+}
+
+header #searchbox input[type="search"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+header #searchbox p {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+
+header #searchbox ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header #searchbox ul li {
+    padding: 8px 10px;
+    font-size: 14px;
+    color: gray;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+header #searchbox ul li:hover {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+header input[type=checkbox]:checked ~ #cartbox {
+    display: flex;
+}
+
+header #cartbox {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    z-index: 2;
+    right: 10px;
+    top: 70px;
+    background-color: #EDF1EF;
+    height: 85vh;
+    width: 370px;
+    padding: 0px;
+}
+
+header #cartbox h3{
+    font-weight: normal;
+    padding: 15px;
+    background-color: white;
+}
+
+header #cartbox div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+header #cartbox div h4{
+    font-size: 1.2em;
+    color: #30402D;
+}
+
+header #cartbox div p{
+    margin-top: 5px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+
+header .setore{
+    color: white;
+    margin-left: 40px;
+    transition: transform .2s;
+}
+
+header .setore:hover{
+    transform: scale(1.1);
+}
+
+header .material-symbols-outlined {
+    font-size: 1.4em;
+    font-variation-settings: 'FILL' 1;
+    color: white;
+    transition: transform .2s;
+}
+
+header .material-symbols-outlined:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,204 @@
+main{
+       margin-top: 90vh;
+}
+
+main section#parceiros{
+    background-color: #6C7B68;
+    padding-bottom: 5px;
+}
+
+main section#parceiros > h1{
+    color: #30402D;
+    text-align: center;
+    font-size: 2.4em;
+    padding: 30px 0px;
+}
+
+main div#blocos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 20vh;
+    margin-bottom: 50px;
+}
+
+main div#blocos a{
+   height: 105px;
+   width: 260px;
+   margin: 10px 20px;
+   border-radius: 6px;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   transition: transform .2s;
+}
+
+main div#blocos a:hover{
+    transform: scale(1.1);
+}
+
+main section#produtos{
+    display: flex;
+    justify-content: center;
+}
+
+main section#produtos a{
+    display: inline-block;
+    width: 250px;
+    height: 320px;
+    margin: 25px 15px;
+    transition: transform .2s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*
+    animation-name: trocar_imagem;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    */
+}
+
+main section#produtos a:hover{
+    transform: scale(1.08);
+}
+
+/*
+
+@keyframes trocar_imagem {
+    0%   {background-image: url("../images/1.png");}
+    25%  {background-image: url("../images/2.png");}
+    50%  {background-image: url("../images/3.png");}
+    75%  {background-image: url("../images/4.png");}
+    100% {background-image: url("../images/1.png");}
+} */
+
+
+main section#promo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 930px;
+    height: 55vh;
+    margin: 50px auto;
+}
+
+main section#promo a{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 100%;
+}
+
+main section#promo a > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 50%;
+    background-color: #BCC7BC;
+}
+
+main section#promo a > div > h3{
+    font-size: 1.7em;
+    color: #2D3E2D;
+    margin-left: 15px;
+}
+
+main section#promo a > div > p{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 15px;
+    color: #687B69;
+}
+
+main section#promo a > img{
+    width: 100%;
+    height: 50%;
+}
+
+main section#modelos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 90vw;
+    height: 100vh;
+    margin: 30px auto;
+    background-color: white;
+}
+
+main section#modelos div#lista_mod{
+    position: relative;
+    width: 20vw;
+    height: 100%;
+    margin: 15px;
+}
+
+main section#modelos div#lista_mod label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    font-size: 1.4em;
+    background-color: #BCC7BC;
+    border-bottom: 0.5px solid #e8e8e8;
+    cursor: pointer;
+}
+
+main section#modelos div#lista_mod label:hover{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    background-color: #919e91;
+}
+
+main section#modelos div#lista_mod .grid_container{
+    position: absolute;
+    flex-direction: column;
+    left: 300px;
+    bottom: 110px;
+    width: 70vw;
+    height: auto;
+}
+
+main section#modelos div#lista_mod .grid_item{
+    display: inline-block;
+    width: 140px;
+    height: 130px;
+    margin: 25px 20px;
+    transition: transform .2s;
+}
+
+main section#modelos div#lista_mod .grid_item:hover{
+    transform: scale(1.1);
+}
+
+main section#modelos div#lista_mod .grid_item div{
+    display: flex;
+    flex-direction: row;
+}
+
+main section#modelos div#lista_mod .grid_item img{
+    width: 100%;
+    height: 80%;
+}
+
+main section#modelos div#lista_mod .grid_item p{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    font-size: 0.9em;
+    width: 100%;
+    height: 20%;
+}
+
+main > h1{
+   text-align: center;
+   font-size: 2.4em;
+   color: #30402D;
+}
